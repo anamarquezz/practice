@@ -1,0 +1,57 @@
+Housting:
+ Default behaviour of javascript where all the variable and function declarations are moved on top
+
+Implicit Type Coercion:
+	> Automatic conversion of value from one data type to another.
+
+	> String coercion: 
+		while using + operator, number added to String
+		var x = 3
+		var y = "3"
+		x + y -> Return "33"
+	> Logical Operator
+		 Falsy Values:
+		 -  0, 0n, -0, “”, null, undefined and NaN
+		Truthy:
+		 - other than that
+	> Equality Coercion:
+		when using '==' compare values and not Types
+
+Javascript is a Dinamically typed languague:
+	The type of a variable is checked during run-time.
+		. variables have no types
+		. variables change type dramatically
+
+What is NaN property?
+	> Represents Not a Number value, which is not a legal number.
+	> typeof of NaN -> return a Number
+
+
+Passed by Value and Passed by Reference:
+	> Primitive Data Types 	   --> are passed by value. 1,2,
+		-> creates a its own copy, 
+	> Non Primitive Data Types --> are passed by reference. A,B,
+		->  changes the original value, 
+
+Inmmediately Invoked Function IIFE -> pronounced as IIFY
+	> Function that runs as soon as its defined
+		(function () {
+	 	})();
+Higher Order Functions
+	> Functions that operate on toher functions, 
+		- by taking themm as arguments
+			_ function higherOrder(fn){ fn() }					
+		- by returnning them.
+			_ function higherOrder2(){ return function() { return "algo" } }
+			  var x = higherOder2();
+Explain "this" keyword:
+	> Refers to the object that the function is a property of.
+	> the value of "this" depend on the object that is invoking the function.
+
+Explain call()
+	> Predefined method in Javascript.
+		invokes a medhot (function) by specifying the owner object.
+	 
+----------------------------------------------------------
+
+
